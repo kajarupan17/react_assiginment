@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+ //import Home from '../src/assiment/navigation.jsx'
+//import Home from '../src/assiment/footer.jsx'
+//import Home from '../src/assiment/header.jsx'
+import Home from '../src/assiment/addview.jsx'
+//import Home from '../src/assiment/defadd.jsx'
+//import Home from '../src/assiment/proadd.jsx'
+//import Home from '../src/assiment/empadd.jsx'
+//import Home from '../src/assiment/detable.jsx'
+//import Home from './assiment/protable.jsx'
+  //import Home from '../src/assiment/emptable.jsx'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+            <Home />
     </div>
   );
 }
 
 export default App;
+
